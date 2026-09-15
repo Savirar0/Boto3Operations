@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & AWS secrets
+.env
+.env.*
+*.pem
+aws_credentials
+
+# Temporary downloads directory
+downloads/
+
+# IDE & Editor folders
+.vscode/
+.idea/
+
+# OS metadata files
+.DS_Store
+Thumbs.db
